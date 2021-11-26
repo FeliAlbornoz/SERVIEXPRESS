@@ -18,6 +18,16 @@ footer {
     
 }
 
+.op-navbar {
+    position: relative;
+}
+
+.op-ul {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+
 .op-logo{
     color: white;
 
