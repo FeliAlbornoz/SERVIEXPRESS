@@ -1,0 +1,102 @@
+
+
+footer {
+    height: 150px;
+    background: black;
+    display: flex;
+}
+.op-footer-logo{
+    color: white;
+    font-size: 60px;
+    margin: auto;
+    letter-spacing: -3px;
+}
+.foto{
+    background-image: url(../img/pexels-malte-luk-2244746.jpg);
+    background-size: 100% 100%;
+    height: 800px;
+    
+}
+
+.op-logo{
+    color: white;
+
+}
+
+.nav-link{
+    color: white;
+    justify-content:right;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.imagen{
+    height: 400px;
+    margin-left: 90px;
+    float: left;
+}
+.imagen2{
+    height: 400px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 90px;
+}
+.h21{
+    margin-left: 600px;
+}
+.h22{
+    margin-top: 50px;
+}
+.hr1{
+    margin-left: 600px;
+    background-color: black;
+    color: black;
+
+}
+.hr2{
+    margin-right: 710px;
+}
+
+
+.texto1{
+    margin-left: 600px;
+}
+
+p{
+    text-align: justify;
+}
+
+.texto{
+    margin-right: 710px;
+}
+
+form{
+    width: 450px;
+    margin: auto;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.container-contacto{
+    background-color: rgb(51, 51, 51);
+}
+.h2c{
+    color: white;
+    text-align: center;
+}
+label{
+    color: white;
+}
+
+textarea{
+    min-height: 150px;
+    max-height: 200px;
+}
