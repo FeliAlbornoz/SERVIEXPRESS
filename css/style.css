@@ -4,12 +4,13 @@ footer {
     height: 150px;
     background: black;
     display: flex;
+    font-family: 'Oswald';
 }
 .op-footer-logo{
     color: white;
     font-size: 60px;
     margin: auto;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
 }
 .foto{
     background-image: url(../img/pexels-malte-luk-2244746.jpg);
@@ -33,6 +34,7 @@ h1{
     text-align: center;
     font-size: 80px;
     margin-bottom: 20px;
+    font-family: 'Oswald';
 }
 
 .imagen{
@@ -48,9 +50,11 @@ h1{
 }
 .h21{
     margin-left: 600px;
+    font-family: 'Oswald';
 }
 .h22{
     margin-top: 50px;
+    font-family: 'Oswald';
 }
 .hr1{
     margin-left: 600px;
@@ -65,21 +69,24 @@ h1{
 
 .texto1{
     margin-left: 600px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-p{
+.texto2{
     text-align: justify;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .texto{
     margin-right: 710px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 form{
     width: 450px;
     margin: auto;
 }
-input, textarea{
+.input1, textarea{
     width: 100%;
     margin-bottom: 20px;
 
@@ -91,12 +98,38 @@ input, textarea{
 .h2c{
     color: white;
     text-align: center;
+    font-size: 50px;
+    font-family: 'Oswald';
 }
 label{
     color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.label1{
+    margin-top: 20px;
 }
 
 textarea{
     min-height: 150px;
     max-height: 200px;
+}
+
+.boton{
+width: 222px;
+margin-bottom: 40px;
+}
+
+.texto-foto{
+    color: white;
+    font-size: 50px;
+    margin-right: 900px;
+    background-color: brown;
+}
+
+.nav-item{
+    
+    text-align: right;
+    display: block;
 }
