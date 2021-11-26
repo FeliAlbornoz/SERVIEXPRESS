@@ -141,5 +141,5 @@ margin-bottom: 40px;
 .nav-item{
     
     text-align: right;
-    display: block;
+    display: inline-block;
 }
