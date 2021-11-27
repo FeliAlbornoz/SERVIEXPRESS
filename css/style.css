@@ -1,4 +1,9 @@
-
+:root {
+    --black: #303030;
+    --blue: #274E7B;
+    --white-d: #F2F4F3;
+    --white: #fff;
+}
 
 footer {
     height: 150px;
@@ -39,7 +44,7 @@ footer {
 
 }
 
-h1{
+.nosotros{
     text-align: center;
     font-size: 80px;
     margin-bottom: 20px;
@@ -97,7 +102,7 @@ form{
 }
 
 .container-contacto{
-    background-color: rgb(51, 51, 51);
+    background-color: var(--black);
 }
 .h2c{
     color: white;
@@ -136,4 +141,34 @@ margin-bottom: 40px;
     
     text-align: right;
     display: inline-block;
+}
+
+.op-titulo{
+    height: 90vh;
+}
+
+.op-titulo-texto{
+    text-align: left;
+    color: white;
+}
+
+.op-foto-titulo{
+    font-size: 60px;
+    font-family: 'Oswald';
+    font-weight: 600;
+}
+
+.op-titulo-row{
+    height: 100%;
+}
+
+.op-btn-agregar{
+    height: 50px;
+    font-family: 'Oswald';
+    font-size: 25px;
+    color: black;
+    background: white;
+    border:none;
+    width: 45%;
+    border-radius: 5PX;
 }
