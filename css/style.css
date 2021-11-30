@@ -290,7 +290,7 @@ input[type="radio"]{
     border-radius:0px;
 }
 
-.col-4 input[type="submit"]{
+.col-4 .submit-hora{
     color: white;
     background:#274E7B;
     padding: 5px 30px;
@@ -305,4 +305,123 @@ input[type="radio"]{
     font-size: 30px;
     font-weight: bold;
 }
+
+.login-bg{
+    background:#303030;
+}
+
+.login-container{
+    background:#F2F4F3;
+    height: 90vh;
+    margin-top: 5vh;
+    border-radius: 5px;
+}
+
+.login-container form{
+    height: 75%;
+}
+
+.form-header{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Oswald';
+}
+
+.form-header h1{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-header h2{
+    display: inline-block;
+    text-align: center;
+    color: #303030;
+}
+
+.field-cont{
+    width: 100%;
+}
+
+.field-cont label{
+    display: inline-block;
+    width: 100%;
+    font-family: 'Oswald';
+    color: #303030;
+}
+
+.field-cont input[type="text"],
+.field-cont input[type="password"],
+.field-cont input[type="email"]{
+    background: white;
+    border: 1px solid #9c9c9c;
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.field-cont input[type="text"]:focus,
+.field-cont input[type="password"]:focus,
+.field-cont input[type="email"]:focus{
+    outline: none;
+    border: 1px solid black;
+}
+
+.text-cont{
+    width: 100%;
+}
+
+.form-text{
+    color: #303030;
+    font-family: 'Oswald';
+    text-align: center;
+    font-weight: 500;
+}
+
+.text-link{
+    font-family: 'Oswald';
+    text-decoration: none;
+    text-align: center;
+    color: #274E7B;
+}
+
+.form-buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.go-back{
+    color: #274E7B;
+    background: none;
+    font-family: 'Oswald';
+    text-decoration: none;
+    width: 30%;
+    text-align: center;
+}
+
+.go-back:hover{
+    color: white;
+    background:var(--blue);
+    font-family: 'Oswald';
+    text-decoration: none;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn-submit-op{
+    color: white;
+    background:#274E7B;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-family: 'Oswald';
+    width: 30%;
+}
+
 
