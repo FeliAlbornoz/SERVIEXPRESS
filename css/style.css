@@ -110,14 +110,10 @@ form{
     font-size: 50px;
     font-family: 'Oswald';
 }
-label{
+.label-cont{
     color: white;
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
-}
-
-.label1{
-    margin-top: 20px;
 }
 
 textarea{
@@ -172,3 +168,141 @@ margin-bottom: 40px;
     width: 45%;
     border-radius: 5PX;
 }
+
+.dark-nav{
+    background: #000;
+}
+
+.main-hour{
+    height: 90vh;
+    max-height: 90vh;
+}
+
+.row-calendar{
+    height: auto;
+}
+
+.calendar{
+    height: auto;
+}
+
+.calendar form{
+    padding: 0;
+    background: #000;
+    height: 100%;
+    width: 100%;
+}
+.calendar-month{
+    background: #000;
+    color: #F2F4F3;
+    display: flex;
+    justify-content: center;
+}
+
+.calendar-days{
+    border: 1px solid black;
+}
+
+.month-name{
+    display: inline-block;
+    font-family: 'Oswald';
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.toggle-left,
+.toggle-right{
+    display: inline-block;
+    text-decoration: none;
+    color: #F2F4F3;
+    margin: 0 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.h2-hora{
+    margin-left: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Oswald';
+}
+
+.calendar-days-name{
+    background: #303030;
+    color: #fff;
+    text-align: center;
+    font-family: 'Oswald';
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.calendar-days-day{
+    background:#F2F4F3;
+    border: 1px solid #303030;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px;
+}
+
+ol li input[type="radio"]:checked + label {
+    color:#F2F4F3;
+    background: #303030;
+}
+
+ol li label{
+    color: #303030;
+    font-family: 'Oswald';
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+ol li label:hover{
+    color: #F2F4F3;
+    background:#303030;
+}
+
+.day1 {
+    grid-column-start: 3;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.col-4 select{
+    width: 100%;
+    border-radius: 0;
+    font-family: 'Oswald';
+    font-size: 18px;
+}
+
+.col-4 select option{
+    border-radius:0px;
+}
+
+.col-4 input[type="submit"]{
+    color: white;
+    background:#274E7B;
+    padding: 5px 30px;
+    font-family: 'Oswald';
+    border: none;
+    border-radius: 5px;
+}
+
+.label-hora{
+    color: #000;
+    font-family: 'Oswald';
+    font-size: 30px;
+    font-weight: bold;
+}
+
